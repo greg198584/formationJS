@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ma page Fibonacci</title>
+</head>
+<body>
+<h1>Suite de Fibonacci</h1>
+<p>Le premier nombre de la suite de Fibonacci est : </p>
+<p id="fibonacci">0</p>
+<button onclick="suivant()">Suivant</button>
+
+<script>
+    var a = 0, b = 1, c;
+    var fibonacci = document.getElementById("fibonacci");
+
+    function suivant() {
+        c = a + b;
+        a = b;
+        b = c;
+        fibonacci.innerHTML = a;
+    }
+</script>
+</body>
+</html>

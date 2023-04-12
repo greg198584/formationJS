@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exemple de code JavaScript</title>
+</head>
+
+<body>
+<h1>Exemple de code JavaScript</h1>
+<p>Voici un exemple de code JavaScript utilisant les concepts suivants :</p>
+<ul>
+    <li>Les variables</li>
+    <li>Les structures de contrôles</li>
+    <li>Les opérateurs arithmétiques</li>
+    <li>Les opérateurs de comparaisons</li>
+    <li>Les fonctions</li>
+</ul>
+<div id="resultats"></div>
+<script>
+    // Utilisation des variables
+    let x = 10;
+    let y = 5;
+    let nom = "Jean";
+    let estMajeur = true;
+
+    // Utilisation des structures de contrôle
+    let resultatControle = "";
+    if (estMajeur) {
+        resultatControle = nom + " est majeur !";
+    } else {
+        resultatControle = nom + " est mineur !";
+    }
+
+    resultatControle += "<br/><br/>";
+
+    for (let i = 0; i < x; i++) {
+        resultatControle += i + "<br/>";
+    }
+
+    // Utilisation des opérateurs arithmétiques
+    let resultatArithmetique = "";
+    resultatArithmetique += x + " + " + y + " = " + (x + y) + "<br/>";
+    resultatArithmetique += x + " - " + y + " = " + (x - y) + "<br/>";
+    resultatArithmetique += x + " * " + y + " = " + (x * y) + "<br/>";
+    resultatArithmetique += x + " / " + y + " = " + (x / y) + "<br/>";
+    resultatArithmetique += x + " % " + y + " = " + (x % y) + "<br/>";
+
+    // Utilisation des opérateurs de comparaisons
+    let resultatComparaison = "";
+    resultatComparaison += x + " == " + y + " : " + (x == y) + "<br/>";
+    resultatComparaison += x + " != " + y + " : " + (x != y) + "<br/>";
+    resultatComparaison += x + " > " + y + " : " + (x > y) + "<br/>";
+    resultatComparaison += x + " < " + y + " : " + (x < y) + "<br/>";
+    resultatComparaison += x + " >= " + y + " : " + (x >= y) + "<br/>";
+    resultatComparaison += x + " <= " + y + " : " + (x <= y) + "<br/>";
+
+    // Utilisation des fonctions
+    function ajouter(x, y) {
+        return x + y;
+    }
+    let resultatFonction = "Résultat de l'addition de " + x + " et " + y + " : " + ajouter(x, y) + "<br/>";
+
+    // Affichage des résultats dans la page HTML
+    document.getElementById("resultats").innerHTML = "<h2>Résultats :</h2>" +
+        "<p>" + resultatControle + "</p>" +
+        "<p>" + resultatArithmetique + "</p>" +
+        "<p>" + resultatComparaison + "</p>" +
+        "<p>" + resultatFonction + "</p>";
+</script>
+</body>
+
+</html>
