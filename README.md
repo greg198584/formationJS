@@ -4,7 +4,7 @@ Ce projet est le code de démonstration de ma formation JavaScript disponible su
 
 Vidéos: https://www.youtube.com/watch?v=IpymxUfoGNc
 
-PDF: [Découvrir JavaScript](learnPDF/JS-1 - Découvrir JavaScript - Introduction à la programmation web.pdf).
+PDF: [Découvrir JavaScript](learnPDF/JS-1%20-%20D%C3%A9couvrir%20JavaScript%20-%20Introduction%20%C3%A0%20la%20programmation%20web.pdf).
 
 Le dossier HTML contient trois sous-dossiers, chacun contenant un fichier index.html :
 - exemple1
