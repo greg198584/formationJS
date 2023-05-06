@@ -2,6 +2,10 @@
 
 Ce projet est le code de démonstration de ma formation JavaScript disponible sur ma chaîne YouTube. Le projet utilise Docker Compose avec Nginx et un volume pour le dossier HTML.
 
+Vidéos: https://www.youtube.com/watch?v=IpymxUfoGNc
+
+PDF: [Découvrir JavaScript](learnPDF/JS-1%20-%20D%C3%A9couvrir%20JavaScript%20-%20Introduction%20%C3%A0%20la%20programmation%20web.pdf).
+
 Le dossier HTML contient trois sous-dossiers, chacun contenant un fichier index.html :
 - exemple1
 - exemple2
