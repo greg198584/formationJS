@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="calculator">
+    <div class="display">
+        <input type="text" id="result" readonly>
+    </div>
+    <div class="buttons">
+        <button class="none"></button>
+        <button class="none"></button>
+        <button class="none"></button>
+        <button class="clear" onclick="clearResult()">C</button>
+        <button onclick="addToResult('7')">7</button>
+        <button onclick="addToResult('8')">8</button>
+        <button onclick="addToResult('9')">9</button>
+        <button class="operator" id="addition" onclick="addToResult('+')">+</button>
+        <button onclick="addToResult('4')">4</button>
+        <button onclick="addToResult('5')">5</button>
+        <button onclick="addToResult('6')">6</button>
+        <button class="operator" id="subtraction" onclick="addToResult('-')">-</button>
+        <button onclick="addToResult('1')">1</button>
+        <button onclick="addToResult('2')">2</button>
+        <button onclick="addToResult('3')">3</button>
+        <button class="operator" id="multiplication" onclick="addToResult('*')">*</button>
+        <button onclick="addToResult('0')">0</button>
+        <button onclick="addToResult('.')">.</button>
+        <button class="operator" onclick="calculateResult()">=</button>
+        <button class="operator" id="division" onclick="addToResult('/')">/</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

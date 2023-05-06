@@ -1,3 +1,4 @@
+
 let data = {
     "users": [
         {
@@ -96,7 +97,7 @@ for (let i = 0; i < table.rows.length; i++) {
     if (verifierMajeur(age) && age > 30 && genre === "Homme") { // Vérifier si l'utilisateur est majeur, a plus de 30 ans et est un homme
         table.rows[i].cells[0].style.color = "red"; // Mettre son nom en rouge
         table.rows[i].cells[0].style.backgroundColor = "lightgrey"; // Mettre l'arrière-plan en gris clair
-    }
+     }
 }
 
 // Ajouter un bouton pour trier les utilisateurs par âge croissant ou décroissant
